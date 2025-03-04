@@ -57,6 +57,7 @@ void criarHabilidadeCone(int habilidade[TAM_HABILIDADE][TAM_HABILIDADE]) {
     }
 }
 
+
 // Função para criar a matriz de efeito da habilidade Cruz
 void criarHabilidadeCruz(int habilidade[TAM_HABILIDADE][TAM_HABILIDADE]) {
     for (int i = 0; i < TAM_HABILIDADE; i++) {
@@ -108,7 +109,5 @@ int main() {
     aplicarHabilidade(tabuleiro, habilidade, 5, 5);
     imprimirTabuleiro(tabuleiro);
 
-    
-    
     return 0;
 }
