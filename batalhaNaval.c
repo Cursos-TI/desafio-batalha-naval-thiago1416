@@ -107,6 +107,8 @@ int main() {
     criarHabilidadeOctaedro(habilidade);
     aplicarHabilidade(tabuleiro, habilidade, 5, 5);
     imprimirTabuleiro(tabuleiro);
+
+    
     
     return 0;
 }
